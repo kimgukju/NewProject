@@ -17,7 +17,7 @@
 ## 원격 Repository 생성하기
 * `https://github.com` 로그인 한 후 Repository 생성하기
 * `git remonte add ... ` 명령문 복사 : `git remote add origin https://github.com/kimgukju/NewProject.git`
-* bash shell 에서 `Shife + insert` 키를 입력하여 붙여넣기
+* bash shell 에서 `Shift + insert` 키를 입력하여 붙여넣기
 
 ## `.gitignore` 생성하기
 * `.gitignore` 파일은 원격 github에 업로드 되지 않아야 할 파일 정보를 등록하는 곳
@@ -27,3 +27,7 @@
 Repository에 push 하기
 
 * `git add.` : 로컬폴더 파일을 압축하여 .git 폴더에 저장하기 
+
+* `git commit -m 커멘트` : 원격 Repository에 push 하는 정보 설정
+
+* `git push -u origin master` : 데이터 push 
